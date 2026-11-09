@@ -1,30 +1,41 @@
-# C++ Practical Manual — Fatemeh sahranvard
+# C++ Practical Manual
+## Fatemeh Sahranvard
 
-12 C++17 practical programs covering fundamentals, classes, constructors, smart pointers, inheritance, polymorphism, overloading, design patterns, templates, exceptions, file I/O, and a Library Management mini project.
+This repository contains 12 C++17 practical programs for Object-Oriented Programming (OOP).
 
-## Compile and run
-Use a C++17 compiler (for example, g++). From this folder:
+### Practical Programs
 
-```bash
-g++ -std=c++17 -Wall -Wextra practical01.cpp -o practical01
+- Practical 01 to Practical 12
+- Basic C++ programming
+- Classes and Objects
+- Constructors
+- Inheritance and Polymorphism
+- Function and Operator Overloading
+- Templates
+- Exception Handling
+- File Handling
+- Library Management Mini Project
+
+### How to Compile and Run
+
+Use a C++17 compiler such as g++.
+
+Example:
+
+g++ -std=c++17 practical01.cpp -o practical01
+
+Run the program:
+
 ./practical01
-```
 
-Repeat with `practical02.cpp` through `practical12.cpp` and the matching executable name. Practical 01 asks for a radius; enter `5` to reproduce the sample output. Practical 11 creates `students.csv`; Practical 12 creates `books.txt`.
+Repeat the process for the required practical program.
 
-## GitHub submission
-Create an empty GitHub repository named `cpp-practicals`, then run from this folder:
+### Student Information
 
-```bash
-git init
-git add .
-git commit -m "Add C++ practical programs and mini project"
-git branch -M main
-git remote add origin YOUR_REPOSITORY_URL
-git push -u origin main
-```
+Name: Fatemeh Sahranvard
 
-Replace `YOUR_REPOSITORY_URL` with the repository URL supplied by GitHub. A real repository URL, commit history, and GitHub screenshots can only be supplied after the student signs in and pushes the files.
+Course: Object-Oriented Programming (OOP)
 
-## Mini project
-`practical12.cpp` is a console-based Library Management System. It adds and lists books, issues and returns books, handles invalid operations with exceptions, and saves/reloads records in `books.txt`.
+Language: C++
+
+Standard: C++17
